@@ -88,14 +88,14 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
     cp .env.example .env
 
+    di setting dulu .env nya
+
 ```
 
 
 
 
-3.  **Menjalankan Secara Lokal (Alternatif)**
-
-    Jika ingin menjalankan manual tanpa Docker:
+3.  **Menjalankan Secara Lokal**
 
 ```bash
 
