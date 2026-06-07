@@ -68,7 +68,7 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
 ## 👥 Kontributor
 
-*   **Brandon Dewa Rusli** - *Lead Developer* - [@github_username](https://github.com/brndn09)
+*   **Brandon Dewa Rusli** - *Lead Developer* - [@github](https://github.com/brndn09)
 
 ---
 
