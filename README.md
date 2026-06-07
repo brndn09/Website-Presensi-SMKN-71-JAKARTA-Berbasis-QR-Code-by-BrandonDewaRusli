@@ -51,7 +51,7 @@ Sebelum memulai, pastikan kamu sudah menginstal:
     Jika kamu menggunakan Docker yang sudah tertera di proyekmu, cukup jalankan:
 ```bash
     docker-compose up -d
-    ```
+```
 
 4.  **Menjalankan Secara Lokal (Alternatif)**
     Jika ingin menjalankan manual tanpa Docker:
@@ -60,7 +60,7 @@ Sebelum memulai, pastikan kamu sudah menginstal:
     php artisan key:generate
     php artisan migrate --seed
     php artisan serve
-    ```
+```
     Buka `http://localhost:8000` di browser kamu.
 
 ---
