@@ -39,13 +39,13 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 ```bash
     git clone [https://github.com/username-kamu/PresensiSMKN71JakartaBerbasisQRCode.git](https://github.com/username-kamu/PresensiSMKN71JakartaBerbasisQRCode.git)
     cd PresensiSMKN71JakartaBerbasisQRCode
-    ```
+```
 
 2.  **Konfigurasi Environment**
     Salin file `.env.example` menjadi `.env` dan sesuaikan pengaturan database Anda.
 ```bash
     cp .env.example .env
-    ```
+```
 
 3.  **Menjalankan Menggunakan Docker (Rekomendasi)**
     Jika kamu menggunakan Docker yang sudah tertera di proyekmu, cukup jalankan:
