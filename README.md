@@ -16,13 +16,13 @@ Aplikasi presensi (absensi) siswa berbasis web yang dirancang khusus untuk SMKN 
 
 *   **Generasi QR Code Dinamis:** Membuat QR Code otomatis untuk setiap sesi presensi.
 
-*   **Scanner QR Code Terintegrasi:** Guru atau sistem dapat memindai QR Code siswa langsung menggunakan kamera perangkat.
+*   **Scanner QR Code Terintegrasi:** sistem dapat memindai QR Code siswa langsung menggunakan kamera perangkat.
 
-*   **Multi-Role Authentication:** Akses masuk terpisah untuk Admin, Guru, dan Siswa.
+*   **Multi-Role Authentication:** Akses masuk terpisah untuk Superadmin, Guru Piket, WaliKelas.
 
 *   **Laporan Real-Time:** Rekapitulasi data kehadiran harian dan bulanan yang dapat dipantau langsung.
 
-*   **Manajemen Data:** Kemudahan pengelolaan data siswa, kelas, guru, dan jadwal pelajaran.
+*   **Manajemen Data:** Kemudahan pengelolaan data siswa, data presensi siswa, data guru, monitoring presensi.
 
 
 
@@ -34,15 +34,13 @@ Aplikasi ini dibangun menggunakan ekosistem teknologi berikut:
 
 
 
-*   **Backend & Framework:** PHP / Laravel *(sesuaikan dengan framework yang kamu pakai)*
+*   **Backend & Framework:** PHP / CodeIgniter4 
 
 *   **Frontend:** HTML5, CSS3, JavaScript, Bootstrap / Tailwind CSS
 
 *   **Database:** MySQL
 
-*   **Library Scanner:** Html5-qrcode / Instascan
-
-*   **Containerization:** Docker (terdapat konfigurasi `docker-compose.yml`)
+*   **Library Scanner:** Html5-qrcode
 
 
 
@@ -60,9 +58,7 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
 *   [Git](https://git-scm.com/)
 
-*   [Docker](https://www.docker.com/) & Docker Compose *(jika menggunakan Docker)*
-
-*   PHP (versi 8.x) & Composer *(jika dijalankan secara lokal tanpa Docker)*
+*   PHP (versi 8.x) & Composer 
 
 *   MySQL
 
@@ -76,7 +72,7 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
 ```bash
 
-    git clone [https://github.com/brndn09/PresensiSMKN71JakartaBerbasisQRCode.git](https://github.com/brndn09/PresensiSMKN71JakartaBerbasisQRCode.git)
+    git clone [https://github.com/brndn09/Website-Presensi-SMKN-71-JAKARTA-Berbasis-QR-Code-by-BrandonDewaRusli.git]([https://github.com/brndn09/PresensiSMKN71JakartaBerbasisQRCode.git](https://github.com/brndn09/Website-Presensi-SMKN-71-JAKARTA-Berbasis-QR-Code-by-BrandonDewaRusli.git))
 
     cd PresensiSMKN71JakartaBerbasisQRCode
 
