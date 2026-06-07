@@ -92,19 +92,8 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
 
 
-3.  **Menjalankan Menggunakan Docker (Rekomendasi)**
 
-    Jika kamu menggunakan Docker yang sudah tertera di proyekmu, cukup jalankan:
-
-```bash
-
-    docker-compose up -d
-
-```
-
-
-
-4.  **Menjalankan Secara Lokal (Alternatif)**
+3.  **Menjalankan Secara Lokal (Alternatif)**
 
     Jika ingin menjalankan manual tanpa Docker:
 
@@ -112,9 +101,13 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
     composer install
 
-    php artisan key:generate
+    mysql -u root -p
 
-    php artisan migrate --seed
+    create database db_absensi;
+
+    php spark migrate --all
+
+    php spark db:seed DatabaseSeeder
 
     php artisan serve
 
