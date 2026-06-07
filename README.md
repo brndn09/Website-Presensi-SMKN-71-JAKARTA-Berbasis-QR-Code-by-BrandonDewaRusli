@@ -37,7 +37,7 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
 1.  **Clone Repositori**
 ```bash
-    git clone [https://github.com/username-kamu/PresensiSMKN71JakartaBerbasisQRCode.git](https://github.com/username-kamu/PresensiSMKN71JakartaBerbasisQRCode.git)
+    git clone [https://github.com/brndn09/PresensiSMKN71JakartaBerbasisQRCode.git](https://github.com/brndn09/PresensiSMKN71JakartaBerbasisQRCode.git)
     cd PresensiSMKN71JakartaBerbasisQRCode
 ```
 
@@ -65,19 +65,10 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
 ---
 
-## 📂 Struktur File Penting
-
-Berdasarkan arsitektur proyek, berikut adalah beberapa file konfigurasi utama yang tersedia:
-*   `docker-compose.yml` - Konfigurasi layanan container Docker.
-*   `Dockerfile` - Instruksi pembuatan image Docker untuk aplikasi.
-*   `phpunit.xml.dist` - Konfigurasi untuk *automated testing*.
-*   `MIGRATION_GUIDE.md` - Panduan untuk migrasi database.
-
----
 
 ## 👥 Kontributor
 
-*   **Brandon Dewa Rusli** - *Lead Developer* - [@github_username](https://github.com/username-kamu)
+*   **Brandon Dewa Rusli** - *Lead Developer* - [@github_username](https://github.com/brndn09)
 
 ---
 
