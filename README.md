@@ -58,9 +58,9 @@ Sebelum memulai, pastikan kamu sudah menginstal:
 
 *   [Git](https://git-scm.com/)
 
-*   PHP (versi 8.x)
-  
 *   [Composer](https://getcomposer.org/download/)
+
+*   PHP (versi 8.x)
 
 *   MySQL
 
